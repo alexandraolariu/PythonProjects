@@ -14,7 +14,7 @@ Mark a task as done: Mark tasks as complete once you've finished them. Completed
 
 Delete a task: Remove tasks from your list that are no longer needed.
 
-PROJECT 
+
 
 **---------------PROJECT 2--------------**
 
@@ -31,3 +31,22 @@ Memory Usage: Shows the current RAM usage percentage.
 Disk Usage: Reports the percentage of used space on a specified disk partition (defaults to C:/ on Windows-like systems).
 
 Timestamped Logs: Each status report is timestamped for easy tracking.
+
+
+**---------------PROJECT 3--------------**
+
+**Simple Network Monitor**
+
+This is a very basic Python script designed to periodically check the reachability of specified hosts (using ping) and the status of designated TCP ports. It's intended as a straightforward example of network monitoring fundamentals.
+
+_Features_
+
+Host Reachability Check: Uses the system's ping command to determine if a host is online.
+
+TCP Port Status Check: Attempts to connect to specified TCP ports to see if they are open.
+
+Periodic Monitoring: Runs checks at a configurable interval.
+
+Console Output: Prints real-time status updates directly to the terminal.
+
+Simple & Self-Contained: All logic is in a single Python file with hardcoded targets for ease of use.
