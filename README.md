@@ -1,36 +1,19 @@
-**---------------PROJECT 1--------------**
+**---------------PROJECT 4--------------**
 
-**Simple To-Do List Application**
+**Simple Log File Analyzer**
 
-This is a basic command-line To-Do List application written in Python. It allows users to manage their daily tasks by adding, viewing, marking as done, and deleting tasks.
-
-_Features_
-
-Add a new task: Easily add new items to your to-do list.
-
-View all tasks: See a comprehensive list of all your tasks, along with their completion status.
-
-Mark a task as done: Mark tasks as complete once you've finished them. Completed tasks are indicated with a checkmark (checkmark).
-
-Delete a task: Remove tasks from your list that are no longer needed.
-
-
-
-**---------------PROJECT 2--------------**
-
-**Simple System Monitor**
-
-This is a basic command-line system monitoring tool written in Python. It provides a quick snapshot of your system's CPU, memory, and disk (C: drive by default) usage at a given moment.
+This is a highly simplified Python script designed to count the occurrences of a specific keyword within a log file. It's ideal for quick, basic analysis and serves as a fundamental example of file processing in Python.
 
 _Features_
 
-CPU Usage: Displays the current CPU utilization percentage.
+Keyword Counting: Counts how many times a predefined keyword appears in a log file.
 
-Memory Usage: Shows the current RAM usage percentage.
+Case-Insensitive Search: The search for the keyword is not case-sensitive.
 
-Disk Usage: Reports the percentage of used space on a specified disk partition (defaults to C:/ on Windows-like systems).
+Console Output: Prints the final count directly to the terminal.
 
-Timestamped Logs: Each status report is timestamped for easy tracking.
+Single File, Hardcoded: All logic and configuration are contained within one Python file.
+
 
 
 **---------------PROJECT 3--------------**
@@ -50,3 +33,37 @@ Periodic Monitoring: Runs checks at a configurable interval.
 Console Output: Prints real-time status updates directly to the terminal.
 
 Simple & Self-Contained: All logic is in a single Python file with hardcoded targets for ease of use.
+
+
+**---------------PROJECT 2--------------**
+
+**Simple System Monitor**
+
+This is a basic command-line system monitoring tool written in Python. It provides a quick snapshot of your system's CPU, memory, and disk (C: drive by default) usage at a given moment.
+
+_Features_
+
+CPU Usage: Displays the current CPU utilization percentage.
+
+Memory Usage: Shows the current RAM usage percentage.
+
+Disk Usage: Reports the percentage of used space on a specified disk partition (defaults to C:/ on Windows-like systems).
+
+Timestamped Logs: Each status report is timestamped for easy tracking.
+
+
+**---------------PROJECT 1--------------**
+
+**Simple To-Do List Application**
+
+This is a basic command-line To-Do List application written in Python. It allows users to manage their daily tasks by adding, viewing, marking as done, and deleting tasks.
+
+_Features_
+
+Add a new task: Easily add new items to your to-do list.
+
+View all tasks: See a comprehensive list of all your tasks, along with their completion status.
+
+Mark a task as done: Mark tasks as complete once you've finished them. Completed tasks are indicated with a checkmark (checkmark).
+
+Delete a task: Remove tasks from your list that are no longer needed.

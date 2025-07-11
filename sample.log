@@ -1,0 +1,8 @@
+2023-01-01 10:00:00 INFO: Application started.
+2023-01-01 10:01:15 WARNING: Disk space low on /var.
+2023-01-01 10:02:30 ERROR: Failed to connect to database.
+2023-01-01 10:03:45 INFO: User 'admin' logged in.
+2023-01-01 10:04:00 ERROR: Authentication failed for user 'guest'.
+2023-01-01 10:05:10 DEBUG: Processing data batch 1.
+2023-01-01 10:06:25 CRITICAL: System error: Out of memory.
+2023-01-01 10:07:30 INFO: Data export complete.

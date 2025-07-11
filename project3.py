@@ -3,11 +3,10 @@ import platform
 import socket
 import time
 
-# --- Configuration (Hardcoded for simplicity) ---
+
 MONITOR_INTERVAL_SECONDS = 10 # Check every 10 seconds
 
 # List of hosts and their ports to monitor
-# Each entry is a dictionary: {"name": "...", "ip": "...", "ports": [...] }
 TARGETS_TO_MONITOR = [
     {
         "name": "Google DNS",
